@@ -24,6 +24,8 @@ this project currently uses:
 -english
 -computer
 
+## calculates cgpa
+
 ## how to run
 
 open the project in  vs code

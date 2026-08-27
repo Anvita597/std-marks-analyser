@@ -12,6 +12,7 @@ for x in subjects:
 
 total = sum(marks)
 avg = total / len(marks)
+cgpa=avg/10
 
 if avg >= 90:
     grade = "A+"
@@ -32,6 +33,7 @@ print(f"Student name: {name}")
 print(f"Total Marks: {total}")
 print(f"Average: {avg:.2f}")
 print(f"Grade: {grade}")
+print(f"Cgpa: {cgpa}")
 print(f"Result: {result}")
 
 file_name = "student_result.csv"
@@ -46,6 +48,7 @@ with open(file_name, "a", newline="") as file:
             "Total Marks",
             "Average",
             "Grade",
+            "Cgpa",
             "Result"
         ])
 
@@ -54,6 +57,7 @@ with open(file_name, "a", newline="") as file:
         total,
         round(avg, 2),
         grade,
+        cgpa,
         result
     ])
 
