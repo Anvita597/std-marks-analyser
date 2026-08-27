@@ -1,4 +1,4 @@
-# Studengt marks analyzer
+# Student marks analyzer
 
 A simple python project that calcultes student marks,average,grade and pass/fail status
 
